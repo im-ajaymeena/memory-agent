@@ -109,6 +109,18 @@ The adjudicator (claude-haiku) prevents duplicates by deciding ADD / UPDATE / DE
 
 ---
 
+## Stretch Goals
+
+| | Goal | How to verify | Reference |
+|---|---|---|---|
+| ✅ | **Relevance-based retrieval** | Ask a topic-specific question — only semantically related memories surface in the response | `src/memory/retriever.py`, `src/memory/embedder.py` |
+| ✅ | **Memory editing** | `/memories` to list with IDs; `/forget <id-prefix>` to delete | `src/cli.py`, `src/memory/store.py` |
+| ✅ | **Conflict resolution** | State a fact, then contradict it ("I switched from X to Y") — old record disappears from `/memories` | `src/memory/adjudicator.py` |
+| ✅ | **Safety / no PII stored** | Share an API key or password — run `/memories` and confirm it's absent | `src/memory/observer.py` |
+| ⚠️ | **Memory categories** | Five typed categories exist and show in `/memories`; no different retrieval rules per type yet | `src/memory/models.py` |
+
+---
+
 ## What I'd Build Next
 
 1. **Conversation compaction** — summarize turns older than the rolling window into a single context entry rather than dropping them.
