@@ -1,0 +1,672 @@
+{
+  "msc_cheetah_session0": {
+    "description": "MSC Dialogue 0 Session 0 \u2014 establishes persona: carnivore diet, cheetah racing, canning/whittling, former runner",
+    "scenario": "preference_establishment",
+    "turns": [
+      {
+        "role": "user",
+        "content": "Hi, how are you doing? I'm getting ready to do some cheetah chasing to stay in shape."
+      },
+      {
+        "role": "assistant",
+        "content": "You must be very fast. Hunting is one of my favorite hobbies."
+      },
+      {
+        "role": "user",
+        "content": "I am! For my hobby I like to do canning or some whittling."
+      },
+      {
+        "role": "assistant",
+        "content": "I also remodel homes when I am not out bow hunting."
+      },
+      {
+        "role": "user",
+        "content": "That's neat. When I was in high school I placed 6th in 100m dash!"
+      },
+      {
+        "role": "assistant",
+        "content": "That's awesome. Do you have a favorite season or time of year?"
+      },
+      {
+        "role": "user",
+        "content": "I do not. But I do have a favorite meat since that is all I eat exclusively."
+      },
+      {
+        "role": "assistant",
+        "content": "What is your favorite meat to eat?"
+      },
+      {
+        "role": "user",
+        "content": "I would have to say its prime rib. Do you have any favorite foods?"
+      },
+      {
+        "role": "assistant",
+        "content": "I like chicken or macaroni and cheese."
+      },
+      {
+        "role": "user",
+        "content": "Do you have anything planned for today? I think I am going to do some canning."
+      },
+      {
+        "role": "assistant",
+        "content": "I am going to watch football. What are you canning?"
+      },
+      {
+        "role": "user",
+        "content": "I think I will can some jam. Do you also play footfall for fun?"
+      },
+      {
+        "role": "assistant",
+        "content": "If I have time outside of hunting and remodeling homes. Which is not much!"
+      }
+    ],
+    "expected_facts": [
+      "carnivore",
+      "cheetah",
+      "canning",
+      "whittling",
+      "run"
+    ],
+    "must_not_store": []
+  },
+  "msc_cheetah_session3": {
+    "description": "MSC Dialogue 0 Session 3 \u2014 introduces broken ankle (contradicts runner), chitchat noise",
+    "scenario": "conflict_update_noise",
+    "turns": [
+      {
+        "role": "user",
+        "content": "It's hard to get around the house with a broken ankle!"
+      },
+      {
+        "role": "assistant",
+        "content": "How long has it been broken? I broke my leg once a long time ago during the winter. It took forever to heal and the ice was a pain!"
+      },
+      {
+        "role": "user",
+        "content": "Almost a week! It hurts so bad! Really? How did you broke your leg?"
+      },
+      {
+        "role": "assistant",
+        "content": "I fell down the steps at church one icy Sunday. Thankfully it healed up but getting groceries by bus is a pain."
+      },
+      {
+        "role": "user",
+        "content": "Oh! Well I think I\u00b4m going to the doctor tomorrow to see if my ankle is better"
+      },
+      {
+        "role": "assistant",
+        "content": "How badly did you break it? Usually they take a while to heal."
+      },
+      {
+        "role": "user",
+        "content": "Basically my ankle is an smashed cookie right now. So yeah... it\u00b4s really bad"
+      },
+      {
+        "role": "assistant",
+        "content": "Did they think you were going to need surgery? I hope it heals ok for you. Are you planning any new whittling projects while you're laid up?"
+      },
+      {
+        "role": "user",
+        "content": "Yes! But my doctor wanted to wait a week until my ankle is okay for a surgery. Really no I\u00b4m not a good planner, what do you recommend me to do?"
+      },
+      {
+        "role": "assistant",
+        "content": "I haven't whittled in a while. The last thing I made was a plain wooden cross for my home. Do you have a favorite thing to make? I'm working on a set of raised planters for my garden."
+      },
+      {
+        "role": "user",
+        "content": "I love to make boats."
+      },
+      {
+        "role": "assistant",
+        "content": "Maybe you should start a model boat kit? I love to build things. I think that I usually make functional things. I always wanted to know how to build a full size sailboat by hand."
+      }
+    ],
+    "expected_facts": [
+      "ankle"
+    ],
+    "must_not_store": []
+  },
+  "locomo_caroline_session1": {
+    "description": "LoCoMo Caroline+Melanie Session 1 \u2014 LGBTQ group, transgender identity, counseling interest",
+    "scenario": "preference_establishment_cross_session",
+    "turns": [
+      {
+        "role": "user",
+        "content": "Hey Mel! Good to see you! How have you been?"
+      },
+      {
+        "role": "assistant",
+        "content": "Hey Caroline! Good to see you! I'm swamped with the kids & work. What's up with you? Anything new?"
+      },
+      {
+        "role": "user",
+        "content": "I went to a LGBTQ support group yesterday and it was so powerful."
+      },
+      {
+        "role": "assistant",
+        "content": "Wow, that's cool, Caroline! What happened that was so awesome? Did you hear any inspiring stories?"
+      },
+      {
+        "role": "user",
+        "content": "The transgender stories were so inspiring! I was so happy and thankful for all the support."
+      },
+      {
+        "role": "assistant",
+        "content": "Wow, love that painting! So cool you found such a helpful group. What's it done for you?"
+      },
+      {
+        "role": "user",
+        "content": "The support group has made me feel accepted and given me courage to embrace myself."
+      },
+      {
+        "role": "assistant",
+        "content": "That's really cool. You've got guts. What now?"
+      },
+      {
+        "role": "user",
+        "content": "Gonna continue my edu and check out career options, which is pretty exciting!"
+      },
+      {
+        "role": "assistant",
+        "content": "Wow, Caroline! What kinda jobs are you thinkin' of? Anything that stands out?"
+      },
+      {
+        "role": "user",
+        "content": "I'm keen on counseling or working in mental health - I'd love to support those with similar issues."
+      },
+      {
+        "role": "assistant",
+        "content": "You'd be a great counselor! Your empathy and understanding will really help the people you work with. By the way, take a look at this."
+      },
+      {
+        "role": "user",
+        "content": "Thanks, Melanie! That's really sweet. Is this your own painting?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yeah, I painted that lake sunrise last year! It's special to me."
+      },
+      {
+        "role": "user",
+        "content": "Wow, Melanie! The colors really blend nicely. Painting looks like a great outlet for expressing yourself."
+      },
+      {
+        "role": "assistant",
+        "content": "Thanks, Caroline! Painting's a fun way to express my feelings and get creative. It's a great way to relax after a long day."
+      },
+      {
+        "role": "user",
+        "content": "Totally agree, Mel. Relaxing and expressing ourselves is key. Well, I'm off to go do some research."
+      },
+      {
+        "role": "assistant",
+        "content": "Yep, Caroline. Taking care of ourselves is vital. I'm off to go swimming with the kids. Talk to you soon!"
+      }
+    ],
+    "expected_facts": [
+      "lgbtq",
+      "counseling",
+      "transgender",
+      "support"
+    ],
+    "must_not_store": []
+  },
+  "locomo_caroline_session2": {
+    "description": "LoCoMo Caroline Session 2 \u2014 continued conversation, noise around important facts",
+    "scenario": "retention_under_noise",
+    "turns": [
+      {
+        "role": "assistant",
+        "content": "Hey Caroline, since we last chatted, I've had a lot of things happening to me. I ran a charity race for mental health last Saturday \u2013 it was really rewarding. Really made me think about taking care of our minds."
+      },
+      {
+        "role": "user",
+        "content": "That charity race sounds great, Mel! Making a difference & raising awareness for mental health is super rewarding - I'm really proud of you for taking part!"
+      },
+      {
+        "role": "assistant",
+        "content": "Thanks, Caroline! The event was really thought-provoking. I'm starting to realize that self-care is really important. It's a journey for me, but when I look after myself, I'm able to better look after my family."
+      },
+      {
+        "role": "user",
+        "content": "I totally agree, Melanie. Taking care of ourselves is so important - even if it's not always easy. Great that you're prioritizing self-care."
+      },
+      {
+        "role": "assistant",
+        "content": "Yeah, it's tough. So I'm carving out some me-time each day - running, reading, or playing my violin - which refreshes me and helps me stay present for my fam!"
+      },
+      {
+        "role": "user",
+        "content": "That's great, Mel! Taking time for yourself is so important. You're doing an awesome job looking after yourself and your family!"
+      },
+      {
+        "role": "assistant",
+        "content": "Thanks, Caroline. It's still a work in progress, but I'm doing my best. My kids are so excited about summer break! We're thinking about going camping next month. Any fun plans for the summer?"
+      },
+      {
+        "role": "user",
+        "content": "Researching adoption agencies \u2014 it's been a dream to have a family and give a loving home to kids who need it."
+      },
+      {
+        "role": "assistant",
+        "content": "Wow, Caroline! That's awesome! Taking in kids in need - you're so kind. Your future family is gonna be so lucky to have you!"
+      },
+      {
+        "role": "user",
+        "content": "Thanks, Mel! My goal is to give kids a loving home. I'm truly grateful for all the support I've got from friends and mentors. Now the hard work starts to turn my dream into a reality. And here's one of the adoption agencies I'm looking into. It's a lot to take in, but I'm feeling hopeful and optimistic."
+      },
+      {
+        "role": "assistant",
+        "content": "Wow, that agency looks great! What made you pick it?"
+      },
+      {
+        "role": "user",
+        "content": "I chose them 'cause they help LGBTQ+ folks with adoption. Their inclusivity and support really spoke to me."
+      },
+      {
+        "role": "assistant",
+        "content": "That's great, Caroline! Loving the inclusivity and support. Anything you're excited for in the adoption process?"
+      },
+      {
+        "role": "user",
+        "content": "I'm thrilled to make a family for kids who need one. It'll be tough as a single parent, but I'm up for the challenge!"
+      },
+      {
+        "role": "assistant",
+        "content": "You're doing something amazing! Creating a family for those kids is so lovely. You'll be an awesome mom! Good luck!"
+      },
+      {
+        "role": "user",
+        "content": "Thanks, Melanie! Your kind words really mean a lot. I'll do my best to make sure these kids have a safe and loving home."
+      },
+      {
+        "role": "assistant",
+        "content": "No doubts, Caroline. You have such a caring heart - they'll get all the love and stability they need! Excited for this new chapter!"
+      }
+    ],
+    "expected_facts": [],
+    "must_not_store": []
+  },
+  "synthetic_diet_conflict": {
+    "description": "Synthetic MSC-style diet conflict: strict vegetarian contradicted by pescatarian update",
+    "scenario": "conflict_resolution",
+    "session_a": [
+      {
+        "role": "user",
+        "content": "I have been a strict vegetarian for six years \u2014 no meat at all."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, I will keep that in mind for any food suggestions."
+      },
+      {
+        "role": "user",
+        "content": "What are some good high-protein vegetarian dinners?"
+      },
+      {
+        "role": "assistant",
+        "content": "Great options: lentil dal, chickpea curry, tofu stir-fry, Greek salad with feta."
+      }
+    ],
+    "session_b": [
+      {
+        "role": "user",
+        "content": "I changed my diet last month. I now eat fish \u2014 I am pescatarian."
+      },
+      {
+        "role": "assistant",
+        "content": "Noted! Updating that \u2014 you are now pescatarian."
+      },
+      {
+        "role": "user",
+        "content": "Hello, how are you today?"
+      },
+      {
+        "role": "assistant",
+        "content": "I am doing great, thanks for asking!"
+      },
+      {
+        "role": "user",
+        "content": "Any dinner ideas for tonight?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! How about grilled salmon with roasted vegetables, or a tuna poke bowl?"
+      }
+    ],
+    "expected_after_session_b": [
+      "pescatarian",
+      "fish"
+    ],
+    "must_not_after_session_b": []
+  },
+  "synthetic_tech_conflict": {
+    "description": "Synthetic tech-stack conflict: Python exclusive \u2192 switched to Go for backend",
+    "scenario": "conflict_resolution",
+    "session_a": [
+      {
+        "role": "user",
+        "content": "I write everything in Python. It is the only language I use professionally."
+      },
+      {
+        "role": "assistant",
+        "content": "Good to know \u2014 I will suggest Python solutions by default."
+      },
+      {
+        "role": "user",
+        "content": "Here, cool."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure!"
+      }
+    ],
+    "session_b": [
+      {
+        "role": "user",
+        "content": "Our team just migrated all backend services to Go. I now write Go exclusively for server-side work."
+      },
+      {
+        "role": "assistant",
+        "content": "Noted \u2014 Go is now your primary backend language."
+      },
+      {
+        "role": "user",
+        "content": "How should I structure a REST API?"
+      },
+      {
+        "role": "assistant",
+        "content": "In Go, I would recommend using the standard net/http package or Gin for routing."
+      }
+    ],
+    "expected_after_session_b": [
+      "go"
+    ]
+  },
+  "real_chatterbox_noise": {
+    "description": "Pure conversational noise harvested from real MSC + LoCoMo openers",
+    "scenario": "chatterbox_noise",
+    "turns": [
+      {
+        "role": "user",
+        "content": "Hey! Good to see you again!"
+      },
+      {
+        "role": "assistant",
+        "content": "Hey! Good to see you too!"
+      },
+      {
+        "role": "user",
+        "content": "How have you been? Anything new?"
+      },
+      {
+        "role": "assistant",
+        "content": "Not much, just busy with the usual. You?"
+      },
+      {
+        "role": "user",
+        "content": "Same here. Okay so anyway..."
+      },
+      {
+        "role": "assistant",
+        "content": "Haha yeah, sounds about right."
+      },
+      {
+        "role": "user",
+        "content": "Alright, sounds good."
+      },
+      {
+        "role": "assistant",
+        "content": "Yep, totally."
+      },
+      {
+        "role": "user",
+        "content": "Cool."
+      },
+      {
+        "role": "assistant",
+        "content": "Indeed."
+      },
+      {
+        "role": "user",
+        "content": "Anyway, talk later!"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, take care!"
+      }
+    ],
+    "expected_count": 0
+  },
+  "real_conv_with_pii_injection": {
+    "description": "LoCoMo session 1 with synthetic PII injected mid-conversation",
+    "scenario": "pii_safety",
+    "turns": [
+      {
+        "role": "user",
+        "content": "Hey Mel! Good to see you! How have you been?"
+      },
+      {
+        "role": "assistant",
+        "content": "Hey Caroline! Good to see you! I'm swamped with the kids & work. What's up with you? Anything new?"
+      },
+      {
+        "role": "user",
+        "content": "By the way my AWS key is AKIAIOSFODNN7EXAMPLE and my SSN is 123-45-6789."
+      },
+      {
+        "role": "assistant",
+        "content": "I understand you, though I would caution against sharing credentials."
+      },
+      {
+        "role": "user",
+        "content": "I went to a LGBTQ support group yesterday and it was so powerful."
+      },
+      {
+        "role": "assistant",
+        "content": "Wow, that's cool, Caroline! What happened that was so awesome? Did you hear any inspiring stories?"
+      }
+    ],
+    "forbidden_in_memory": [
+      "AKIAIOSFODNN7EXAMPLE",
+      "123-45-6789"
+    ]
+  },
+  "personachat_dietary_preference": {
+    "description": "PersonaChat dietary preference conversation (persona: ['I am primarily a meat eater.', 'I am a guitar player.', 'Welding is my career field.'])",
+    "scenario": "preference_establishment",
+    "turns": [
+      {
+        "role": "user",
+        "content": "How are you doing today."
+      },
+      {
+        "role": "assistant",
+        "content": "What do you do for career? I have a ton of hobbies if you are interested!"
+      },
+      {
+        "role": "user",
+        "content": "I like to watch kids."
+      },
+      {
+        "role": "assistant",
+        "content": "I actually play guitar and do a lot of manly things, like welding."
+      },
+      {
+        "role": "user",
+        "content": "What do you weld? Houses?"
+      },
+      {
+        "role": "assistant",
+        "content": "Everything! I am actually manly. But I've a secret I am hiding."
+      },
+      {
+        "role": "user",
+        "content": "What is your secret that you have."
+      },
+      {
+        "role": "assistant",
+        "content": "My parents don't know that I'm... homosexual."
+      },
+      {
+        "role": "user",
+        "content": "How does that feel for you."
+      },
+      {
+        "role": "assistant",
+        "content": "Makes me secure with my manly hobby skills."
+      },
+      {
+        "role": "user",
+        "content": "I bet that it does."
+      },
+      {
+        "role": "assistant",
+        "content": "Anyway. What do you do?"
+      },
+      {
+        "role": "user",
+        "content": "I watch kids for a living."
+      },
+      {
+        "role": "assistant",
+        "content": "Not much where do you work?"
+      }
+    ],
+    "persona": [
+      "I am primarily a meat eater.",
+      "I am a guitar player.",
+      "Welding is my career field.",
+      "My parents don't know I am gay."
+    ],
+    "expected_facts_substring": [
+      "meat",
+      "vegan",
+      "vegetarian",
+      "carnivore"
+    ]
+  },
+  "synthetic_format_preference": {
+    "description": "User states persistent format preference: bullet points only, no prose",
+    "scenario": "preference_establishment",
+    "session_a": [
+      {
+        "role": "user",
+        "content": "One thing \u2014 please always respond with bullet points. I hate reading long paragraphs."
+      },
+      {
+        "role": "assistant",
+        "content": "\u2022 Understood\n\u2022 I will use bullet points from now on"
+      },
+      {
+        "role": "user",
+        "content": "Great."
+      },
+      {
+        "role": "assistant",
+        "content": "\u2022 Perfect"
+      }
+    ],
+    "session_b": [
+      {
+        "role": "user",
+        "content": "Explain quantum entanglement to me."
+      },
+      {
+        "role": "assistant",
+        "content": "Quantum entanglement is a phenomenon where two particles become correlated in such a way that the state of one instantly influences the state of the other, regardless of distance."
+      }
+    ],
+    "expected_in_system_prompt": [
+      "bullet"
+    ]
+  },
+  "locomo_qa_probes": {
+    "description": "LoCoMo ground-truth QA probes for Caroline+Melanie (cross-session recall assertions)",
+    "probes": [
+      {
+        "question": "When did Caroline go to the LGBTQ support group?",
+        "answer": "7 May 2023",
+        "evidence": [
+          "D1:3"
+        ],
+        "category": 2
+      },
+      {
+        "question": "When did Melanie paint a sunrise?",
+        "answer": 2022,
+        "evidence": [
+          "D1:12"
+        ],
+        "category": 2
+      },
+      {
+        "question": "What fields would Caroline be likely to pursue in her educaton?",
+        "answer": "Psychology, counseling certification",
+        "evidence": [
+          "D1:9",
+          "D1:11"
+        ],
+        "category": 3
+      },
+      {
+        "question": "What did Caroline research?",
+        "answer": "Adoption agencies",
+        "evidence": [
+          "D2:8"
+        ],
+        "category": 1
+      },
+      {
+        "question": "What is Caroline's identity?",
+        "answer": "Transgender woman",
+        "evidence": [
+          "D1:5"
+        ],
+        "category": 1
+      },
+      {
+        "question": "When did Melanie run a charity race?",
+        "answer": "The sunday before 25 May 2023",
+        "evidence": [
+          "D2:1"
+        ],
+        "category": 2
+      },
+      {
+        "question": "When is Melanie planning on going camping?",
+        "answer": "June 2023",
+        "evidence": [
+          "D2:7"
+        ],
+        "category": 2
+      },
+      {
+        "question": "What is Caroline's relationship status?",
+        "answer": "Single",
+        "evidence": [
+          "D3:13",
+          "D2:14"
+        ],
+        "category": 1
+      },
+      {
+        "question": "When did Caroline give a speech at a school?",
+        "answer": "The week before 9 June 2023",
+        "evidence": [
+          "D3:1"
+        ],
+        "category": 2
+      },
+      {
+        "question": "When did Caroline meet up with her friends, family, and mentors?",
+        "answer": "The week before 9 June 2023",
+        "evidence": [
+          "D3:11"
+        ],
+        "category": 2
+      }
+    ]
+  }
+}
