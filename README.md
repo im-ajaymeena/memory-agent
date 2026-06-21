@@ -192,13 +192,6 @@ Runs two sessions back-to-back:
 1. User tells the agent their role, current project, and goal.
 2. A fresh session starts (new session ID, simulating a process restart). The agent recalls the facts from session 1 without being told anything.
 
----
-
-## Environment Variables
-
-| Variable | Required | Purpose |
-|---|---|---|
-| `ANTHROPIC_API_KEY` | Yes | Conversations (claude-sonnet-4-6) + extraction (claude-haiku-4-5) |
 
 ---
 
