@@ -209,12 +209,3 @@ Runs two sessions back-to-back:
 
 ---
 
-## Time Spent
-
-| Area | Time |
-|---|---|
-| Architecture research + design | ~1.5h |
-| Agent core + session + extractor + CLI | ~1.5h |
-| Tests (unit, integration, e2e, I/O behavioural) | ~1h |
-| Memory integration + demo + README | ~0.45h |
-| **Total** | **~4.45h** |
